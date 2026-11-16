@@ -1,0 +1,103 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+# ==============================
+# PYTHON
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ==============================
+# AMBIENTE VIRTUAL E DEPENDÊNCIAS
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# VARIÁVEIS DE AMBIENTE E SEGREDOS
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# AIRFLOW
+# ==============================
+airflow/logs/
+airflow/logs/**
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+
+# ==============================
+# DADOS GERADOS
+# ==============================
+data/*.json
+data/*.parquet
+data/*.csv
+data/*.xlsx
+
+# ==============================
+# NOTEBOOKS
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE E EDITORES
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# SISTEMA OPERACIONAL
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# LOGS E TEMPORÁRIOS
+# ==============================
+*.log
+*.tmp
+*.bak
+*.temp
+# Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Airflow
+logs/
+airflow/logs/
+
+# Generated data
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
